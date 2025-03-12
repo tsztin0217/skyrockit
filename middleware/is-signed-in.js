@@ -4,3 +4,5 @@ const isSignedIn = (req, res, next) => {
     // otherwise we redirect them to the sign-in page
     res.redict('/auth/signed-in');
 }
+
+module.exports = isSignedIn;
